@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Create Playlist</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Playlist</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Create Playlist</h1>
+    <div>
+      <form method="get">
+        <div>
+          <!-- <label for="title">Title</label> -->
+          <input type="text" id="title" name="title" placeholder="title lagu" />
+        </div>
+        <div>
+          <textarea name="description" cols="30" rows="10" placeholder="deskripsi lagu"></textarea>
+        </div>
+      </form>
+      <button>Submit</button>
+    </div>
+    <div class="playlist">
+      <img src="https://i.ytimg.com/vi/WyEPPMwJezA/maxresdefault.jpg" width="400" />
+      <p>Title: Cerita Daun dan Bumi</p>
+      <p>Artist: Rio Satrio</p>
+      <p>Album: Cerita Daun dan Bumi, 2017</p>
+      <button>Nothing</button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
 </html>
